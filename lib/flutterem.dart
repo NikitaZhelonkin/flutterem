@@ -16,9 +16,8 @@ class Flutterem {
 
   static init({double targetWidth, double targetHeight}) async {
       _size = await _displaySize;
-
-      _targetWidth = min(targetWidth, targetHeight);
-      _targetHeight = max(targetWidth, targetHeight);
+      _targetWidth = targetWidth;
+      _targetHeight = targetHeight;
   }
 
   static Size get size => _size;
@@ -29,9 +28,10 @@ class Flutterem {
 
   static Future<Size> get _displaySize async {
     Map<dynamic, dynamic> result = await _channel.invokeMethod('getDisplaySize');
-    return Size(result["width"], result["height"]);
+    int width = result["width"];
+    int height = result["height"];
+    return Size(min(width, height), max(width, height));
   }
-
 }
 
 double sw(double value)  => value * Flutterem._size.width / Flutterem._targetWidth;
