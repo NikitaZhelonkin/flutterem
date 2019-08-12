@@ -23,9 +23,12 @@ class Flutterem {
 
   static Size get size => _size;
 
+  static double get targetWidth => _targetWidth;
+
+  static double get targetHeight => _targetHeight;
+
   static Future<Size> get _displaySize async {
     Map<dynamic, dynamic> result = await _channel.invokeMethod('getDisplaySize');
-    print(result);
     return Size(result["width"], result["height"]);
   }
 
