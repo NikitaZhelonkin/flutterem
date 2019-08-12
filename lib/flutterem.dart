@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:math';
 
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
@@ -15,8 +16,9 @@ class Flutterem {
 
   static init({double targetWidth, double targetHeight}) async {
       _size = await _displaySize;
-      _targetWidth = targetWidth;
-      _targetHeight = targetHeight;
+
+      _targetWidth = min(targetWidth, targetHeight);
+      _targetHeight = max(targetWidth, targetHeight);
   }
 
   static Size get size => _size;
