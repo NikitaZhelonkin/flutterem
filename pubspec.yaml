@@ -1,8 +1,8 @@
 name: flutterem
 description: A new flutter plugin project.
 version: 0.1.1
-author: 'author'
-homepage: 'homepage'
+author: "Nikita Zhelonkin <niks.mbox@gmail.com>"
+homepage: 'https://github.com/NikitaZhelonkin/FlutterScrollingPageIndicator'
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
