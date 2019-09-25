@@ -4,20 +4,24 @@ import 'dart:math';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
-
 class Flutterem {
-  static const MethodChannel _channel =
-      const MethodChannel('flutterem');
+  static const MethodChannel _channel = const MethodChannel('flutterem');
 
   static Size _size;
+
+  static bool _enabled = true;
 
   static double _targetWidth;
   static double _targetHeight;
 
   static init({double targetWidth, double targetHeight}) async {
-      _size = await _displaySize;
-      _targetWidth = targetWidth;
-      _targetHeight = targetHeight;
+    _size = await _displaySize;
+    _targetWidth = targetWidth;
+    _targetHeight = targetHeight;
+  }
+
+  static set enabled(bool enabled) {
+    _enabled = enabled;
   }
 
   static Size get size => _size;
@@ -34,8 +38,8 @@ class Flutterem {
   }
 }
 
-double sw(double value)  => value * Flutterem._size.width / Flutterem._targetWidth;
+double sw(double value) =>
+    Flutterem._enabled ? value * Flutterem._size.width / Flutterem._targetWidth : value;
 
-double sh(double value)  => value * Flutterem._size.height / Flutterem._targetHeight;
-
-
+double sh(double value) =>
+    Flutterem._enabled ? value * Flutterem._size.height / Flutterem._targetHeight : value;
