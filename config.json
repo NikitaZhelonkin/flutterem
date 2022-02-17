@@ -1,0 +1,213 @@
+{
+  "workspaces": [
+    {"guids": ["ee219503-b69b-9484-405b-6877a510e13c"], "clients": ["music"], "auth_scope": "messenger:music"},
+    {"include": [2], "clients": ["geochats"]},
+    {"include": [12], "clients": ["zen"]},
+    {"include": [18], "guids": ["2d001e07-0165-9004-5972-3c2857a2ac80"], "clients": ["wisp"], "auth_scope": "messenger:classified"},
+    {"include": [22, 32], "clients": ["telemost"], "auth_scope": "messenger:telemost"},
+    {"include": [24, 25], "guids": ["d79dca0a-7ee2-4666-9a40-d97503426e3e", "335a9003-91c5-95df-6968-182fcdaf1577"], "clients": ["market"], "auth_scope": "messenger:market"},
+    {"include": [24, 25], "guids": ["d79dca0a-7ee2-4666-9a40-d97503426e3e", "6d102306-a0b0-97f1-6061-5e65e5feae6d", "335a9003-91c5-95df-6968-182fcdaf1577"], "clients": ["market2"], "auth_scope": "messenger:market"},
+    {"include": [26], "clients": ["support"], "guids": [
+      "865cd407-5d53-9344-676c-8285a5bab464",
+      "726b7b42-8eb9-4299-b9d5-03ec3d260155",
+      "79e29205-4ada-9321-4d10-d7c3d79c5d04",
+      "bde37cf3-eb59-4f93-8e5b-1809858a9ac1",
+      "e2031d0a-2745-9eab-5c34-6033bd7e2c8f",
+      "03260906-cb47-944e-45eb-5914572be194",
+      "b9b6f704-0633-9efd-7d3e-c74dfffbc33c",
+      "cfadd202-8b66-99ee-70f1-6475878643c7",
+      "45654f03-d7d6-915b-7405-7b6c35fd53a2",
+      "23fe7556-efee-420c-8b76-55dfb2733225",
+      "efcf11b5-ffc2-4ff6-ae6d-79190d7c5419",
+      "3ea8c303-761b-9ce6-7a27-1a6cafa572f2",
+      "5d6b4403-6bfe-9b6a-4e55-6f6795a4effb",
+      "93605505-cd3b-9efb-6fb3-dfd46dc5d73c",
+      "80e82108-29fc-9712-580e-d892a517f35b",
+      "f86c5443-7419-4f0f-abbd-81791da5ca28",
+      "11f80a00-92a1-953d-57eb-08df07f6a5ec",
+      "f8a3d609-d439-955e-4187-5bd3b5d8e82c",
+      "9394b605-89aa-957e-5cd1-5fc7d79a9034",
+      "cd30e8e4-9227-4c7d-8e4b-f89a55b1e403",
+      "661e4603-3176-9764-4741-0a948dd8b845",
+      "41c58a75-35e3-4f16-82ea-3420759a8af0",
+      "2dfbe86d-09dc-4441-a68b-6e591a7abda6",
+      "40cdbb4b-392d-4ce8-87a0-836ef631759c",
+      "ec3321ee-6518-413d-9837-c48385a13db2",
+      "05e4de0e-a7fc-4086-8333-aae355e79a5c",
+      "69a7742c-14a4-414c-a2d4-baaec5b024ef",
+      "4831bbf5-7a27-4898-a924-f92fa09af5d6",
+      "48a00007-e097-9274-6b97-e861557382c2",
+      "ee219503-b69b-9484-405b-6877a510e13c",
+      "a9538a00-622e-9245-7827-6c43bf05adc2",
+      "7e56d4ab-2987-47e3-83c6-66883221d592",
+      "87a1be5c-f0ba-459b-8a17-0bce52e88b31",
+      "3d8f0007-f610-914e-45f7-3eddaf3cc441",
+      "e4075e00-8577-9b46-6d53-d12527a327d5",
+      "57c1b309-028b-96aa-671a-4e2ed7a0142b",
+      "1e560e75-4d04-4fd1-ae38-670a778fda79",
+      "5cb78286-a944-4c0f-bf33-b5c282eae053",
+      "840c4ce4-ed25-4c66-a7c7-ba8c001e02d9",
+      "554f9c00-89b2-9ccc-5862-c7f57fc360e9",
+      "e74e1b01-cd7b-9b6a-5e10-f609ad6c175f",
+      "2d513705-4778-9901-5779-c052071d8bb8",
+      "e0271d00-30f7-9cf7-4c16-c3f95d5b10cd",
+      "0b66fc05-62f8-9d2b-46f4-9b4cb742a1ab",
+      "5d8e56bb-08ab-4fe8-ac54-7d9e7d4f6b5c",
+      "978d205a-d629-4a13-b37b-1264c14afc6f",
+      "45d1ee03-5306-98da-4e0e-276737c17d34",
+      "80027008-e39a-986b-5f64-822d65ab117c"
+    ]},
+    {"include": [27], "guids": ["3d8f0007-f610-914e-45f7-3eddaf3cc441"], "clients": ["gasstations"], "auth_scope": "messenger:gasstations"},
+    {"guids": ["9394b605-89aa-957e-5cd1-5fc7d79a9034", "d0e64b05-39cb-90f1-4acb-8552c572bb19"], "clients": ["kinopoisk"], "auth_scope": "messenger:kinopoisk"},
+    {"guids": ["1e560e75-4d04-4fd1-ae38-670a778fda79"], "clients": ["invest"], "auth_scope": "messenger:invest"},
+    {"guids": ["3ea8c303-761b-9ce6-7a27-1a6cafa572f2"], "clients": ["uslugiIsolatedSupport"]},
+    {"guids": ["4774df03-1e2d-94c1-5659-a9f73f764fba"], "clients": ["marketb2bapps"], "auth_scope": "messenger:marketb2bapps"},
+    {"guids": ["25108807-fdaf-99b3-7bf8-b4c51d8dbc2c"], "clients": ["travel"], "auth_scope": "messenger:travel-support"},
+    {"guids": ["33f6d403-19fd-9f0b-69e6-81057d5df41d", "1f47a200-cbde-96b9-4fcf-676a2d75039b"], "clients": ["eda"], "auth_scope": "messenger:eda"},
+    {"guids": ["9fcb5e09-2ffc-950b-790c-ae4395fb1506", "e686050a-e2d4-9c4d-5265-9008354d0319"], "clients": ["lavka"], "auth_scope": "messenger:lavka"},
+    {"guids": ["37cbcb08-d731-9aa9-4dc5-31ddcf74995a", "c8c67803-a9c7-98f2-4a30-223a3fe16004"], "clients": ["deli"], "auth_scope": "messenger:deli"}
+  ],
+  "main_workspace": {
+    "exclude": [25, 26]
+  },
+  "namespaces": [{
+    "id": 0
+  }, {
+    "id": 1
+  }, {
+    "id": 2,
+    "disable_tech_messages": true,
+    "check_invite_hash": false
+  }, {
+    "id": 3,
+    "disable_tech_messages": true,
+    "mute": true,
+    "mute_mentions": true,
+    "check_invite_hash": false,
+    "check_membership": false,
+    "allow_Lu_messages": true
+  }, {
+    "id": 4,
+    "allow_Lu_messages": true
+  }, {
+    "id": 5,
+    "allow_Lu_messages": true,
+    "hidden": true
+  }, {
+    "id": 6,
+    "add_message_chat_created": true,
+    "update_members_send_join_leave": true
+  }, {
+    "id": 7,
+    "disable_tech_messages": true,
+    "check_invite_hash": false,
+    "check_membership": false,
+    "allow_Lu_messages": true
+  }, {
+    "id": 8,
+    "disable_tech_messages": true,
+    "mute": true,
+    "mute_mentions": false
+  }, {
+    "id": 9,
+    "disable_tech_messages": true,
+    "check_invite_hash": false,
+    "check_membership": false,
+    "allow_Lu_messages": true
+  }, {
+    "id": 10,
+    "add_message_chat_created": true,
+    "disable_tech_messages": true
+  }, {
+    "id": 11,
+    "disable_tech_messages": true
+  }, {
+    "id": 12,
+    "check_invite_hash": false,
+    "allow_Lu_messages": true,
+    "add_message_chat_created": true
+  }, {
+    "id": 13,
+    "mute": true,
+    "mute_mentions": false,
+    "max_members": 150,
+    "check_invite_hash": false,
+    "allow_Lu_messages": true,
+    "add_message_chat_created": true
+  }, {
+    "id": 14,
+    "disable_tech_messages": true,
+    "check_invite_hash": false,
+    "check_membership": false,
+    "allow_Lu_messages": true,
+    "add_message_chat_created": true
+  }, {
+    "id": 15,
+    "allow_Lu_messages": true,
+    "hidden": true
+  }, {
+    "id": 16,
+    "disable_tech_messages": true,
+    "add_message_chat_created": true
+  }, {
+    "id": 17,
+    "allow_L_messages": true,
+    "add_message_chat_created": true
+  }, {
+    "id": 18,
+    "add_message_chat_created": true
+  }, {
+    "id": 19
+  }, {
+    "id": 20,
+    "add_message_chat_created": true
+  }, {
+    "id": 21
+  }, {
+    "id": 22,
+    "mute": true,
+    "mute_mentions": false,
+    "disable_tech_messages": true
+  }, {
+    "id": 23,
+    "add_message_chat_created": true
+  }, {
+    "id": 24,
+    "disable_tech_messages": true,
+    "mute": true,
+    "mute_mentions": false,
+    "check_invite_hash": false,
+    "check_membership": false,
+    "allow_Lu_messages": true,
+    "add_message_chat_created": true
+  }, {
+    "id": 25,
+    "allow_Lu_messages": true
+  }, {
+    "id": 26,
+    "allow_Lu_messages": true
+  }, {
+    "id": 27,
+    "disable_tech_messages": true,
+    "check_invite_hash": false,
+    "check_membership": false,
+    "allow_Lu_messages": true
+  }, {
+    "id": 28
+  }, {
+    "id": 29,
+    "check_invite_hash": false,
+    "check_membership": false,
+    "allow_Lu_messages": true
+  }, {
+    "id": 30,
+    "allow_Lu_messages": true
+  }, {
+    "id": 31,
+    "allow_Lu_messages": true
+  }, {
+    "id": 32,
+    "check_invite_hash": false,
+    "check_membership": false
+  }]
+}
